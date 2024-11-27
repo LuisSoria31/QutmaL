@@ -25,7 +25,6 @@ export const RegisterUser = () => {
         } catch (error) {
             alert("Hubo un error", error)
         }
-        console.log(data)
         navigate("/")
     }
     return (

@@ -6,7 +6,7 @@ export const ShowQuestionnaires = () => {
     const user = JSON.parse(localStorage.user);
     const navigate = useNavigate();
     return (
-        <Container>
+        <Container className='mt-3'>
             <Card>
                 <Card.Body>
                     <h3>Bienvenido de nuevo, {user.name}</h3>
